@@ -10,23 +10,96 @@
 # print(f'A soma de {num_1} + {num_2} é {resultado}')
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+
+############ RESOLUÇÃO
+
+# numero = int(input('Digite um número: '))
+
+# resto_divisao = numero % 5
+
+# print(f'O resto da divisão de {numero} é {resto_divisao}')
+
+############ FIM DA RESOLUÇÃO
+
+
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+
+############ RESOLUÇÃO
+
+# num_1 = int(input('Digite um número: '))
+# num_2 = int(input('Digite outro número: '))
+# resultado = num_1 * num_2
+
+# print(f'A multiplicação de {num_1} e {num_2} é {resultado}')
+
+############ FIM DA RESOLUÇÃO
+
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
-num_1 = int(input('Digite um número inteiro: '))
-num_2 = int(input('Digite outro número inteiro: '))
+############ RESOLUÇÃO
 
-resultado = num_1 // num_2
+# num_1 = int(input('Digite um número inteiro: '))
+# num_2 = int(input('Digite outro número inteiro: '))
+# resultado = num_1 // num_2
 
-print(f'A divisão de {num_1} por {num_2} é {resultado}')
+# print(f'A divisão de {num_1} por {num_2} é {resultado}')
+
+############ FIM DA RESOLUÇÃO
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+
+############ RESOLUÇÃO
+
+# num = int(input('Digite um número: '))
+# resultado = num ** 2
+
+# print(f'A raiz quadrada de {num} é {resultado}')
+
+############ FIM DA RESOLUÇÃO
+
 
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+
+############ RESOLUÇÃO
+
+# num_1 = float(input('Digite um número: '))
+# num_2 = float(input('Digite outro número: '))
+# resultado = num_1 + num_2
+
+# print(f'A soma dos números flutuantes {num_1} e {num_2} é {resultado}')
+
+############ FIM DA RESOLUÇÃO
+
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+
+############ RESOLUÇÃO
+
+num_1 = float(input('Digite um número flutuante: '))
+num_2 = float(input('Digite outro número flutuante: '))
+media = (num_1 + num_2) / 2
+
+print(f'A média da soma de {num_1} + {num_2} é {media}')
+
+############ FIM DA RESOLUÇÃO
+
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+
+############ RESOLUÇÃO
+
+# base = float(input('Digite a base da potenciação: '))
+# expoente = int(input('Digite o expoente: '))
+# resultado = base ** expoente
+
+# print(f'A potenciação de {base} por {expoente} é {resultado}')
+
+############ FIM DA RESOLUÇÃO
+
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
