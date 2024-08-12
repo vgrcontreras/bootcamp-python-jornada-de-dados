@@ -78,11 +78,11 @@
 
 ############ RESOLUÇÃO
 
-num_1 = float(input('Digite um número flutuante: '))
-num_2 = float(input('Digite outro número flutuante: '))
-media = (num_1 + num_2) / 2
+# num_1 = float(input('Digite um número flutuante: '))
+# num_2 = float(input('Digite outro número flutuante: '))
+# media = (num_1 + num_2) / 2
 
-print(f'A média da soma de {num_1} + {num_2} é {media}')
+# print(f'A média da soma de {num_1} + {num_2} é {media}')
 
 ############ FIM DA RESOLUÇÃO
 
@@ -101,7 +101,27 @@ print(f'A média da soma de {num_1} + {num_2} é {media}')
 
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+
+############ RESOLUÇÃO
+
+# temperatura_celsius = int(input('Digite a temperatura celsius: '))
+# temperatura_fahrenheit = (temperatura_celsius * 1.8) + 32
+
+# print(f'{temperatura_celsius} graus celsius em fahrenheit é {temperatura_fahrenheit}')
+
+############ FIM DA RESOLUÇÃO
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+
+############ RESOLUÇÃO
+
+# raio = float(input('Digite o raio do círculo: '))
+# area = 3.1 * (raio ** 2)
+
+# print(f'A area de um círculo com um raio de {raio} é de {area}')
+
+############ FIM DA RESOLUÇÃO
+
 
 # #### Strings (`str`)
 
