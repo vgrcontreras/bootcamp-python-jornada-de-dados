@@ -126,18 +126,107 @@
 # #### Strings (`str`)
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+
+############ RESOLUÇÃO
+
+# nome = input('Digite o seu nome: ')
+
+# print(f'nome maíusculo: {nome.upper()}')
+
+############ FIM DA RESOLUÇÃO
+
+
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+
+############ RESOLUÇÃO
+
+# nome_completo = input('Digite o seu nome completo: ')
+
+# print(f'Nome minúsculo: {nome_completo.lower()}')
+
+############ FIM DA RESOLUÇÃO
+
+
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+
+############ RESOLUÇÃO
+
+# frase = input('Digite uma frase de sua escolha: ')
+
+# print(f'{frase.strip()}')
+
+############ FIM DA RESOLUÇÃO
+
+
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+
+############ RESOLUÇÃO
+
+# data = input('Digite uma data no formato dd/mm/aaaa: ')
+
+# data_separado = data.split('/')
+
+# dia = data_separado[0]
+# mes = data_separado[1]
+# ano = data_separado[2]
+
+# print(f'dia: {dia}')
+# print(f'mes: {mes}')
+# print(f'ano: {ano}')
+
+############ FIM DA RESOLUÇÃO
+
+
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+
+############ RESOLUÇÃO
+
+# string_1 = input('Digite uma palavra: ')
+# string_2 = input('Digite outra palavra: ')
+
+# concatenated_strings = " ".join([string_1, string_2])
+
+# print(concatenated_strings)
+
+############ FIM DA RESOLUÇÃO
+
 
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+
+boolean_1 = bool(input('Digte um valor booleano (True ou False): '))
+boolean_2 = bool(input('Digite outro valor (True ou False): '))
+
+resultado = boolean_1 and boolean_2
+
+print(resultado)
+
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+############ RESOLUÇÃO
+
+# num_1 = float(input('Digite um número: '))
+# num_2 = float(input('Digite outro número: '))
+
+# if num_1 == num_2:
+#     print('Os números digitados são iguais')
+
+############ FIM DA RESOLUÇÃO
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+############ RESOLUÇÃO
+
+# num_1 = float(input('Digite um número: '))
+# num_2 = float(input('Digite outro número: '))
+
+# if num_1 != num_2:
+#     print('Os números digitados são diferentes')
+
+############ FIM DA RESOLUÇÃO
 
 # #### try-except e if
 
