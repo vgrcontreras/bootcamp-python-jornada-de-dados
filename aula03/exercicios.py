@@ -110,6 +110,19 @@ from datetime import datetime
 # ## Exercício 7. Normalização de Dados
 # Objetivo:** Normalizar uma lista de números para que fiquem na escala de 0 a 1.
 
+# lista = [253, 180, 390.76, 255.98]
+
+# min_val = min(lista)
+# max_val = max(lista)
+
+# lista_normalizada = []
+
+# for num in lista:
+#     num_normalized = (num - min_val) / (max_val - min_val)
+#     lista_normalizada.append(num_normalized)
+
+# print(lista_normalizada)
+
 ### Exercício 8. Filtragem de Dados Faltantes
 # Objetivo:** Dada uma lista de dicionários representando dados de usuários, filtrar aqueles que têm um campo específico faltando
 
@@ -130,27 +143,43 @@ from datetime import datetime
 # Objetivo:** Dada uma lista de números, extrair apenas aqueles que são pares.
 
 
-nums_list = []
+# nums_list = []
 
-for num in range(1, 11, 1):
-    nums_list.append(num)
+# for num in range(1, 11, 1):
+#     nums_list.append(num)
 
-even_nums_list = []
+# even_nums_list = []
 
-for num in nums_list:
-    if num % 2 == 0:
-        even_nums_list.append(num)
+# for num in nums_list:
+#     if num % 2 == 0:
+#         even_nums_list.append(num)
 
-print(even_nums_list)
+# print(even_nums_list)
 
 
 ### Exercício 10. Agregação de Dados por Categoria
 # Objetivo:** Dado um conjunto de registros de vendas, calcular o total de vendas por categoria.
 
+
+
 ### Exercícios com WHILE
 
 ### Exercício 11. Leitura de Dados até Flag
 # Ler dados de entrada até que uma palavra-chave específica ("sair") seja fornecida.
+
+# frase = 'Ao encontrar a palavra sair. Essa parte não deveria aparecer'
+
+# frase_nova = frase.replace(".","")
+# lista_palavras = frase_nova.split(" ")
+
+# i = 0
+# while i < len(lista_palavras):
+#     palavra = lista_palavras[i]
+#     if palavra == 'sair':
+#         print('execução interrompida pela palavra sair')
+#         break  # Interrompe o loop `while` quando a palavra "sair" é encontrada
+#     print(palavra)
+#     i += 1  # Incrementa o índice para processar a próxima palavra
 
 ### Exercício 12. Validação de Entrada
 # Solicitar ao usuário um número dentro de um intervalo específico até que a entrada seja válida.
@@ -158,8 +187,36 @@ print(even_nums_list)
 ### Exercício 13. Consumo de API Simulado
 # Simular o consumo de uma API paginada, onde cada "página" de dados é processada em loop até que não haja mais páginas.
 
-### Exercício 14. Tentativas de Conexão
-# Simular tentativas de reconexão a um serviço com um limite máximo de tentativas.
+# ### Exercício 14. Tentativas de Conexão
+# # Simular tentativas de reconexão a um serviço com um limite máximo de tentativas.
+
+# max_tentativas = 100
+
+# num_tentativa = 1
+
+# while num_tentativa <= 100: 
+#     print(f'Tentativa [{num_tentativa}]: Tentando conexão...')
+
+#     num_tentativa += 1
+
+# print('Tentativas de conexão execedida')
 
 ### Exercício 15. Processamento de Dados com Condição de Parada
 # Processar itens de uma lista até encontrar um valor específico que indica a parada.
+
+itens = [
+    42, 3.14, "Hello", 99, 7.89, "World", 2024, 0.001, "Python",
+    -7, 2.718, "Coding", 1024, -3.14159, "ChatGPT", 18, 6.022e23,
+    "Data", 0, 9.81
+]
+
+
+
+i = 0
+while i < len(itens):
+    palavra = itens[i]
+    if palavra == 'Coding':
+        print(f'execução interrompida pela palavra {palavra}')
+        break  # Interrompe o loop `while` quando a palavra "sair" é encontrada
+    print(palavra)
+    i += 1  # Incrementa o índice para processar a próxima palavra
