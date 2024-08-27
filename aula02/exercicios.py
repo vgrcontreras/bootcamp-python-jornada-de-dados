@@ -195,12 +195,9 @@
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
 
-boolean_1 = bool(input('Digte um valor booleano (True ou False): '))
-boolean_2 = bool(input('Digite outro valor (True ou False): '))
+# boolean_1 = bool(input('Digte um valor booleano (True ou False): '))
+# boolean_2 = bool(input('Digite outro valor (True ou False): '))
 
-resultado = boolean_1 and boolean_2
-
-print(resultado)
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
