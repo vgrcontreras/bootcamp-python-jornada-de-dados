@@ -26,8 +26,12 @@ while nome_valido is not True:
 while salario_valido is not True:
     try:
         salario = float(input('Digite o seu salário: '))
-        salario_valido = True
-        print('Salário válido: ', salario)
+
+        if salario <= 0:
+            print('Por favor, digite um valor positivo para o salário.')
+        else:
+            print('Salário válido: ', salario)
+            salario_valido = True
     except ValueError as e:
         print('Você digitou um salário inválido')
 
@@ -37,8 +41,11 @@ while bonus_valido is not True:
     try:
         valor_bonus = float(input('Digite o percentual do bonus: '))
 
-        bonus_valido = True
-        print('Bonus válido: ', valor_bonus)
+        if valor_bonus < 0:
+            print('Por favor, digite um valor positivo para o salário.')
+        else:    
+            print('Bonus válido: ', valor_bonus)
+            bonus_valido = True
     except ValueError as e:
         print('Você digitou um valor de bônus invalido')
 
